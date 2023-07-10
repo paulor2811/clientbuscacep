@@ -5,14 +5,14 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JOptionPane;
 
-import io.github.paulor2811.clientbuscacep.httpclient5.HttpClient;
 import io.github.paulor2811.clientbuscacep.ui.UI;
+import io.github.paulor2811.clientbuscacep.viacep.ViaCEP;
 
 public class ClientBuscaCEP {
 	
 	private UI ui;
 	private Address address;
-	private HttpClient httpclient;
+	private ViaCEP httpclient;
 	
 	public ClientBuscaCEP() {
 		ui = new UI();

@@ -1,4 +1,4 @@
-package io.github.paulor2811.clientbuscacep.httpclient5;
+package io.github.paulor2811.clientbuscacep.viacep;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -10,7 +10,7 @@ import com.google.gson.Gson;
 import io.github.paulor2811.clientbuscacep.core.Address;
 import io.github.paulor2811.clientbuscacep.util.Util;
 
-public class HttpClient {
+public class ViaCEP {
 	
 	public static Address HTTPClient(Address address, String cep) throws Exception {
         String str_url = "https://viacep.com.br/ws/" + cep + "/json/";
